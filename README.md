@@ -1,16 +1,46 @@
-# React + Vite
+# GitHub Profile Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern GitHub Profile Finder built using React (Vite) and Tailwind CSS.  
+This application allows users to search for any GitHub username and instantly view their public profile information using the GitHub REST API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔍 Search any GitHub username
+- 📡 Real-time data fetching from GitHub API
+- 👤 Displays avatar, name, bio, and username
+- 📊 Shows followers, following, and public repositories
+- 🌍 Displays location and website (if available)
+- ⚠️ Error handling for invalid usernames
+- ⏳ Loading state handling
+- 🎨 Clean Black & White Professional UI
+- 📱 Fully responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Tailwind CSS
+- GitHub REST API
+- Lucide React Icons
+
+---
+
+## 🧠 What I Learned
+
+- Working with external APIs using fetch()
+- Handling loading and error states in React
+- Managing state using useState and useEffect
+- Conditional rendering
+- Building responsive UI using Tailwind CSS
+- Creating reusable components
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
